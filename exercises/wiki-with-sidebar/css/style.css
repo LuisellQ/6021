@@ -16,6 +16,11 @@ body {
     padding: 24px
 }
 
+#sidebar-content h4 {
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+}
+
 #sidebar-content ul {
     list-style-type: none;
     padding: 0px;
@@ -32,6 +37,7 @@ body {
 #main-content {
     flex: 1;
     max-width: 1200px;
+    margin-left: 24px;
 }
 
 #main-content h1 {
@@ -44,13 +50,4 @@ h2 {
     border-bottom: 1px solid gray;
     font-family: serif;
     padding: 4px 0px;
-    margin-left: 20px;
-}
-
-#main-content p {
-    margin-left: 20px;
-}
-
-#main-content h3 {
-    margin-left: 20px;
 }
