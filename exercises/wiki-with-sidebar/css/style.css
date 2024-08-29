@@ -36,8 +36,8 @@ body {
 
 #main-content {
     flex: 1;
-    max-width: 1200px;
     margin-left: 24px;
+    max-width: 1800px;
 }
 
 #main-content h1 {
