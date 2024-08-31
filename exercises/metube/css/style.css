@@ -109,15 +109,18 @@ body {
 
 .metube-item h4 a:hover {
     text-decoration: underline;
+    color:  rgb(21, 171, 171);
 }
 
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
+    color:  rgb(21, 171, 171);
 }
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+    color:  rgb(21, 171, 171);
 }
 
 .metube-item img {
@@ -126,7 +129,7 @@ body {
 }
 
 #header .fa-solid {
-    margin-inline-end: 12px;
+    margin-inline-end: 10px;
 }
 
 .fa-solid {
