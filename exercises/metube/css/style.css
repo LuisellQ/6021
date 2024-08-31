@@ -120,6 +120,11 @@ body {
     margin-bottom: 4px;
 }
 
+.metube-item img {
+    width: 100%;
+    border-radius: 40px;
+}
+
 #header .fa-solid {
     margin-inline-end: 12px;
 }
@@ -131,3 +136,4 @@ body {
 .fa-brands {
     color: rgb(21, 171, 171);
 }
+
