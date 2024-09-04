@@ -77,6 +77,10 @@ h1 a {
     width: 400px;
 }
 
+#product-info p {
+    border: 0.5px solid rgb(235, 233, 233);
+}
+
 .condition {
     padding-bottom: 20px;
 }
