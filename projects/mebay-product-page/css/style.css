@@ -53,6 +53,7 @@ h1 a {
 .thumbnail img {
     width: 100px;
     margin: 3px 30px;
+    border-radius: 15px;
 }
 
 #product-image {
@@ -63,12 +64,17 @@ h1 a {
     grid-area: product-info;
 }
 
-#product-image img {
-    width: 400px;
+#product-info h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #product-info a {
     color: #111111;
+    font-weight: lighter;
+}
+
+#product-image img {
+    width: 400px;
 }
 
 .condition {
@@ -97,7 +103,7 @@ h1 a {
 
 .available {
     padding-left: 5px;
-    color: rgb(167, 165, 165);
+    color: rgb(137, 135, 135);
 }
 
 .sold {
@@ -111,13 +117,20 @@ h1 a {
     margin: 50px 0px;
     text-decoration: none;
     text-align: center;
-    border: 1px solid hsl(207, 96%, 69%);
+    border: 1px solid  hsl(233, 93%, 61%);
     padding: 18px;
     border-radius: 100px;
 }
 
 .blue-button {
-    background-color: hsl(207, 96%, 69%);
+    background-color: hsl(233, 93%, 61%);
     font-weight: bold;
+}
+
+#product-info .blue-button {
     color: white;
+}
+
+#product-info .outline-button {
+    color:  hsl(233, 93%, 61%);
 }
