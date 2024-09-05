@@ -9,11 +9,28 @@ body {
 
 #page-layout {
     display: grid;
-    grid-template-columns: 1fr 250px 450px 500px 1fr;
+    grid-template-columns: 1fr 250px 450px 100px 500px 1fr;
     grid-template-areas:
-        ". header header header ."
-        ". thumbnail product-image product-info . ";
+        ". header header header header ."
+        ". header-2 header-2 header-2 header-2 ."
+        ". thumbnail product-image product-image product-info . "
+        ". sell-now sell-now sell-now . .";
 
+}
+
+#header-2 {
+    grid-area: header-2;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+#header-2 a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: gray;
+}
+#header-2 a:hover {
+    text-decoration: underline;
 }
 
 #header {
@@ -21,12 +38,12 @@ body {
 }
 
 h1 {
-    padding: 0px 50px;
+    padding: 0px 20px;
 }
 
 h1 a {
     text-decoration: none;
-    /* font-size: 48px; */
+    font-size: 48px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -69,6 +86,21 @@ h1 a {
     width: 400px;
 }
 
+#sell-now {
+    grid-area: sell-now;
+    border-bottom: 1px solid  rgb(219, 215, 215);
+}
+
+#sell-now p {
+    padding-top: 10px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#sell-now  p a {
+    color: #111111;
+}
+
 #product-info {
     grid-area: product-info;
 }
@@ -103,7 +135,7 @@ h1 a {
 }
 
 .quantity {
-    padding-top: 15px;
+    padding: 15px;
 }
 
 .quantity a {
@@ -131,11 +163,11 @@ h1 a {
 
 .buttons a {
     display: block;
-    margin: 50px 0px;
+    margin: 16px 0px;
     text-decoration: none;
     text-align: center;
     border: 1px solid  hsl(233, 93%, 61%);
-    padding: 18px;
+    padding: 16px;
     border-radius: 100px;
 }
 
