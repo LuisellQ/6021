@@ -127,7 +127,7 @@ h1 a {
 }
 
 .condition {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .condition span {
@@ -135,7 +135,7 @@ h1 a {
 }
 
 .quantity {
-    padding: 15px;
+    padding-bottom: 20px;
 }
 
 .quantity a {
