@@ -44,4 +44,12 @@
     width: 100%;
     padding: 22px;
     text-align: center;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+.card-container a:hover {
+    background-color: transparent;
+    color: green;
 }
