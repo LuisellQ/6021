@@ -9,14 +9,15 @@
 */
 
 .card-style-3 h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 28px;
 }
 
 .card-style-3 {
     display: flex;
     flex-direction: column;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 20px 30px;
     width: 350px;
@@ -26,14 +27,16 @@
 }
 
 .card-style-3 .health {
-    padding-bottom: 2px;
-    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    margin-left: 50px;
     font-size: 20px;
 }
 
 .card-style-3 img {
     width: 280px;
-    object-fit: cover;
     border: 5px solid goldenrod;
 }
 
@@ -105,6 +108,6 @@
     font-size: 12px;
     font-weight: bold;
     margin: 20px;
-    padding: 0px 10px;
+    padding: 3px 10px;
     border: 2px solid goldenrod;
 }
