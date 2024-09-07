@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
     font-size: 28px;
 }
 
@@ -21,7 +22,6 @@
     align-items: center;
     margin: 20px 30px;
     width: 350px;
-    padding: 0px;
     border-radius: 15px;
     border: 15px solid rgb(235, 205, 8);
 }
@@ -55,7 +55,9 @@
 
 .attack {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    
 }
 
 #pokemon-card-1,
