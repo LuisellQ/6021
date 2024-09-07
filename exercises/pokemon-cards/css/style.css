@@ -21,27 +21,24 @@
     margin: 20px 30px;
     width: 350px;
     padding: 0px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 15px solid rgb(235, 205, 8);
 }
 
-.card-style-3 h2 {
-    font-size: 28px;
-}
-
 .card-style-3 .health {
+    padding-bottom: 2px;
     padding-left: 200px;
     font-size: 20px;
 }
 
 .card-style-3 img {
-    width: 275px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 280px;
+    object-fit: cover;
     border: 5px solid goldenrod;
 }
 
 .details {
+    margin-top: 3px;
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
@@ -50,7 +47,12 @@
         rgb(240, 209, 5),
         goldenrod,
         yellow
-    )
+    );
+}
+
+.attack {
+    display: flex;
+    align-items: center;
 }
 
 #pokemon-card-1,
@@ -79,4 +81,30 @@
         rgb(165, 239, 252),
         rgb(19, 175, 192)
     );
+}
+
+.description {
+    padding-bottom: 30px;
+}
+
+.description span {
+    display: inline-block;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.power {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 0px 10px;
+    border: 2px solid goldenrod;
 }
