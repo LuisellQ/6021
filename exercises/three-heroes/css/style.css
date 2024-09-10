@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/auroras.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-1 h1 {
+    font-size: 6vw;
+    padding-top: 30vh;
+    padding-left: 3vw;
+    color: whitesmoke;
+}
+
+#hero-1 h4 {
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
+    color: #efefef;
+}
+#hero-1 .hero-content {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+}
+
+#hero-1 a {
+    font-size: 1vw;
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    padding: 22px; 
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.spacer {
+    height: 2vh;
+}
+
+#hero-2 {
+    background-image: url(../images/pineapple.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-2 h2 {
+    font-size: 3vw;
+    padding-left: 8vw;
+    color: rgb(221, 10, 109);
+}
+
+#hero-2 h4 {
+    font-size: 2vw;
+}
+
+#hero-2 a {
+    font-size: 1vw;
+    display: inline-block;
+    background-color: rgb(240, 193, 7);
+    color: #111111;
+    text-decoration: none;
+    padding: 24px;
+
+}
+
+#hero-3 {
+    background-image: url(../images/pexels-janetrangdoan-1128678.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-3 h1 {
+    font-size: 4vw;
+    padding-left: 1vw;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #111111;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5vw 2vh;
+}
