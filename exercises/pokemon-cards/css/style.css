@@ -27,9 +27,21 @@
 .pokemon-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
 }
+
+#pokemon-card-4 h2 {
+    padding-right: 100px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+#pokemon-card-3 h2 {
+    padding-right: 40px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
 
 .health {
     margin-top: 28px;
@@ -37,12 +49,55 @@
 }
 
 .card-style-3 img {
-    width: 280px;
+    width: 290px;
     border: 5px solid goldenrod;
 }
 
-.details {
+#pokemon-card-1 .details {
     margin-top: 3px;
+    padding: 0px 19px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    background: radial-gradient(
+        at top right,
+        rgb(240, 209, 5),
+        goldenrod,
+        yellow
+    );
+}
+
+#pokemon-card-2 .details {
+    margin-top: 3px;
+    padding: 0px 1px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    background: radial-gradient(
+        at top right,
+        rgb(240, 209, 5),
+        goldenrod,
+        yellow
+    );
+}
+
+#pokemon-card-4 .details {
+    margin-top: 3px;
+    padding: 0px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    background: radial-gradient(
+        at top right,
+        rgb(240, 209, 5),
+        goldenrod,
+        yellow
+    );
+}
+
+#pokemon-card-3 .details {
+    margin-top: 3px;
+    padding: 0px 15px;
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
@@ -58,6 +113,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
+    padding: 0px 20px;
+    border-bottom: 2px solid black;
     
 }
 
@@ -89,14 +147,10 @@
     );
 }
 
-.description {
-    padding-top: 30px;
-    margin-bottom: 30px;
-}
-
 .description span {
     display: inline-block;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .power {
@@ -110,7 +164,7 @@
     align-items: center;
     font-size: 12px;
     font-weight: bold;
-    margin: 0px 10px 10px;
+    margin: 7px 25px 10px;
     padding: 3px 10px;
     border: 2px solid goldenrod;
 }
