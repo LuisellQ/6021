@@ -8,14 +8,6 @@
     of the setup.css styling if you do so.
 */
 
-.card-style-3 h2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0px;
-    font-size: 28px;
-}
-
 .card-style-3 {
     display: flex;
     flex-direction: column;
@@ -26,12 +18,21 @@
     border: 15px solid rgb(235, 205, 8);
 }
 
-.card-style-3 .health {
+.card-style-3 h2 {
+    padding-right: 70px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+.pokemon-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
-    margin-left: 50px;
+
+}
+
+.health {
+    margin-top: 28px;
     font-size: 20px;
 }
 
@@ -89,12 +90,12 @@
 }
 
 .description {
-    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 .description span {
     display: inline-block;
-    padding-top: 30px;
     font-weight: bold;
 }
 
@@ -109,7 +110,7 @@
     align-items: center;
     font-size: 12px;
     font-weight: bold;
-    margin: 20px;
+    margin: 0px 10px 10px;
     padding: 3px 10px;
     border: 2px solid goldenrod;
 }
