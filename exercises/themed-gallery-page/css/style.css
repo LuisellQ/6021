@@ -22,26 +22,37 @@ body {
     margin-right: 15vw;
     margin-bottom: 0px;
     color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .hero h4 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-right: 16vw;
     margin-top: 3px;
     color: whitesmoke;
+    border-bottom: 1px solid rgb(190, 7, 7);
+    padding: 0px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
 }
 
 .spacer {
-    height: 8vh;
+    height: 4vh;
 }
 
 .single-column {
     width: 50%;
-    min-width: 400px;
-    max-width: 500px;
+    min-width: 500px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.single-column h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
 }
 
 .basic-grid-gallery {
@@ -49,7 +60,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
     padding: 24px;
-    border: 3px solid #111111;
+    border: 3px solid rgb(190, 7, 7);
 }
 
 .basic-grid-gallery img {
