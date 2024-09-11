@@ -16,20 +16,24 @@ body {
 }
 
 #hero-1 h1 {
-    font-size: 6vw;
-    padding-top: 30vh;
+    font-size: 5vw;
+    padding-top: 16vh;
     padding-left: 3vw;
     color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 #hero-1 h4 {
-    font-size: 2vw;
-    margin: 0px 5vw 0px 0px;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 45px;
     color: #efefef;
 }
 #hero-1 .hero-content {
     position: absolute;
-    top: 45%;
+    top: 22%;
     left: 33%;
 }
 
@@ -41,10 +45,9 @@ body {
     color: whitesmoke;
     text-decoration: none;
     position: absolute;
-    left: 30%;
-    padding: 22px; 
-    margin: 5vh 5vw 10vh 0px;
-}
+    left: 35%;
+    padding: 22px;
+} 
 
 .spacer {
     height: 2vh;
@@ -57,12 +60,13 @@ body {
     background-position: center center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 200px;
 }
 
 #hero-2 h2 {
     font-size: 3vw;
+    margin-bottom: 0px;
     color: rgb(221, 10, 109);
 }
 
@@ -86,13 +90,21 @@ body {
     background-size: cover;
     background-position: left;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #hero-3 h1 {
     font-size: 4vw;
     padding-left: 1vw;
+    margin-bottom: 0px;
+}
+
+#hero-3 p {
+    font-size: 2vw;
+    padding-left: 1vw;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 #hero-3 a {
@@ -102,5 +114,6 @@ body {
     color: whitesmoke;
     text-decoration: none;
     padding: 15px;
-    margin: 5vw 2vh;
+    margin-left: 1vw;
+    margin-top: 1vw;
 }
