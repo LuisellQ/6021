@@ -8,7 +8,7 @@ body {
 }
 
 .hero {
-    background-image: url(../images/IMG_3378.jpg);
+    background-image: url(../images/benjyteatro.jpg);
     height: 118vh;
     background-size: cover;
     display: flex;
@@ -18,21 +18,23 @@ body {
 }
 
 .hero h1 {
-    font-size: 4vw;
-    margin-right: 15vw;
+    font-size: 3.5vw;
+    margin-right: 8vw;
+    margin-top: 0px;
     margin-bottom: 0px;
     color: whitesmoke;
+    font-weight: lighter;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 .hero h4 {
-    font-size: 1.5vw;
-    margin-right: 16vw;
+    font-size: 1.3vw;
+    margin-right: 8vw;
     margin-top: 3px;
     color: whitesmoke;
     border-bottom: 1px solid rgb(190, 7, 7);
-    padding: 0px 10px;
+    padding: 0px 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
 }
@@ -43,7 +45,7 @@ body {
 
 .single-column {
     width: 50%;
-    min-width: 500px;
+    min-width: 400px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
