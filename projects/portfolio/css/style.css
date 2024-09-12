@@ -32,8 +32,14 @@ body {
     color: #efefef;
     text-decoration: none;
     padding: 24px;
+    border-radius: 4px;
 
 } 
+
+.hero a:hover {
+    background-color: #111111;
+    color: rgb(188, 6, 146);
+}
 
 .hero-content {
     text-align: center;
@@ -68,6 +74,7 @@ body {
 
 .vertical-masonry-gallery img {
     width: 100%;
+    border-radius: 4px;
 }
 
 .centered-column {
@@ -86,6 +93,7 @@ body {
     padding: 10px;
     box-shadow: -4px 4px 12px gray;
     background-color: #efefef;
+    border-radius: 4px;
 }
 
 .card img {
@@ -95,10 +103,19 @@ body {
     
 }
 
+.card h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .card a {
     color: #efefef;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     background-color: #111111;
     display: inline-block;
