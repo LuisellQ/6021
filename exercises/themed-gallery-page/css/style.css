@@ -13,7 +13,7 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-position: center center;
     align-items: flex-end;
 }
 
@@ -28,13 +28,17 @@ body {
 
 }
 
+#hero-content {
+    padding-top: 10vh;
+    text-align: center;
+}
+
 .hero h4 {
     font-size: 1.3vw;
     margin-right: 8vw;
     margin-top: 3px;
     color: whitesmoke;
     border-bottom: 1px solid rgb(190, 7, 7);
-    padding: 0px 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
 }
