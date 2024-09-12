@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.hero {
+    background-image: url(../images/pexels-axel-vandenhirtz-929280.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero h1 {
+    font-size: 5.5vh;
+    padding-right: 5vw;
+    margin-top: 20vh;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    font-size: 1vw;
+    display: inline-block;
+    background-color: #111111;
+    color: #efefef;
+    text-decoration: none;
+    padding: 24px;
+
+}
