@@ -109,6 +109,7 @@ body {
 
 .card p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
 }
 
 .card a {
@@ -122,6 +123,7 @@ body {
     width: 100%;
     padding: 10px;
     text-align: center;
+    border-radius: 4px;
     transition: 
         background-color .5s
         color .5s;
