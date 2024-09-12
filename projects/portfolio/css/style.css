@@ -38,6 +38,7 @@ body {
 .hero-content {
     text-align: center;
     padding-right: 6vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .spacer {
@@ -54,8 +55,8 @@ body {
 }
 
 #single-column h2 {
-    font-family: ;
-    font-weight: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
 }
 
 .vertical-masonry-gallery {
