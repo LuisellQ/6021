@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(230, 230, 204), rgb(219, 219, 189));
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(77, 89, 50);
+    padding: 24px;
+}
+
+#navbar img {
+    width: 200px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+
+#navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(246, 234, 206);
+}
+
+#navbar-2 img {
+    width: 200px;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color:  rgb(234, 83, 28);
+    padding: 26px;
+}
+
+#navbar-2 .cta-button {
+    background-color: white;
+    color:  rgb(234, 83, 28);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+
+#navbar-top {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#navbar-3 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-3 img {
+    width: 200px;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: rgb(232, 100, 5);
+    padding: 24px;
+
+}
+
+#navbar-3 .cta-button {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 18px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(232, 100, 5);
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
