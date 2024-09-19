@@ -101,6 +101,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(232, 100, 5);
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #navbar-bottom a {
