@@ -135,6 +135,10 @@ body {
     color: red;
 }
 
+.single-column p {
+    font-size: 18px;
+}
+
 .single-column a {
     font-size: 1.0vw;
     display: inline-block;
@@ -174,7 +178,11 @@ body {
 
 .single-column-2 h4 {
     font-size: 18px;
-    color: red;
+    color: #111111;
+}
+
+.single-column-2 p {
+    font-size: 18px;
 }
 
 .single-column-2 a {
@@ -223,7 +231,11 @@ body {
 
 .single-column-3 h4 {
     font-size: 18px;
-    color: red;
+    color: #111111;
+}
+
+.single-column-3 p {
+    font-size: 18px;
 }
 
 .single-column-3 a {
