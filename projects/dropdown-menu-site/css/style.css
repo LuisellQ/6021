@@ -63,11 +63,11 @@ body {
 
 #navbar .dropdown-menu a:hover {
     background: #292828;
-    text-decoration: underline red;
+    text-decoration: underline goldenrod;
 }
 
 .hero {
-    background-image: url(../images/cute_dog.jpg);
+    background-image: url(../images/hero_dog.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -100,7 +100,7 @@ body {
 }
 
 .hero a:hover {
-    text-decoration: underline red;
+    text-decoration: underline goldenrod;
     box-shadow: 4px 4px 4px #111111;
     transform: translateY(-4px);
 }
@@ -127,12 +127,13 @@ body {
 .single-column h2 {
     font-size: 44px;
     margin-bottom: 0px;
+    color: goldenrod;
     
 }
 
 .single-column h4 {
     font-size: 18px;
-    color: red;
+    color: #111111;
 }
 
 .single-column p {
@@ -151,7 +152,7 @@ body {
 }
 
 .single-column a:hover {
-    text-decoration: underline red;
+    text-decoration: underline goldenrod;
     transform: translateY(-4px);
 }
 
@@ -173,6 +174,7 @@ body {
 .single-column-2 h2 {
     font-size: 50px;
     margin-bottom: 0px;
+    color: goldenrod;
     
 }
 
@@ -199,7 +201,7 @@ body {
 }
 
 .single-column-2 a:hover {
-    text-decoration: underline red;
+    text-decoration: underline goldenrod;
     box-shadow: 2px 2px 4px  #292828;
     transform: translateY(-2px);
 }
@@ -226,6 +228,7 @@ body {
 .single-column-3 h2 {
     font-size: 50px;
     margin-bottom: 0px;
+    color: goldenrod;
     
 }
 
@@ -252,7 +255,7 @@ body {
 }
 
 .single-column-3 a:hover {
-    text-decoration: underline red;
+    text-decoration: underline goldenrod;
     box-shadow: 2px 2px 4px  #292828;
     transform: translateY(-2px);
 }
