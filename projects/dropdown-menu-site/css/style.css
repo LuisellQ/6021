@@ -171,6 +171,10 @@ body {
     padding: 36px;
 }
 
+.single-column img {
+    width: 100%;
+}
+
 .single-column-2 h2 {
     font-size: 50px;
     margin-bottom: 0px;
@@ -207,7 +211,7 @@ body {
 }
 
 .single-column-2 img {
-    width: 400px;
+    width: 100%;
 }
 
 .container-3 {
@@ -261,5 +265,5 @@ body {
 }
 
 .single-column-3 img {
-    width: 400px;
+    width: 100%;
 }
