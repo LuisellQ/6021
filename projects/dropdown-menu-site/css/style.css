@@ -116,7 +116,6 @@ body {
 
 .single-column {
     width: 50%;
-    min-width: 400px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -163,7 +162,6 @@ body {
 
 .single-column-2 {
     width: 50%;
-    min-width: 400px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -221,7 +219,6 @@ body {
 
 .single-column-3 {
     width: 50%;
-    min-width: 400px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -266,4 +263,38 @@ body {
 
 .single-column-3 img {
     width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .hero h2 {
+        font-size: 6vw;
+    }
+
+    .hero a {
+        font-size: 2vw;
+    }
+
+    .single-column {
+        min-width: auto;
+        width: 90%;
+    }
+
+    .single-column-2 {
+        min-width: auto;
+        width: 90%;
+    }
+
+    .single-column-3 {
+        min-width: auto;
+        width: 90%;
+    }
 }
