@@ -214,34 +214,34 @@ a {
 
 @media screen and (max-width: 768px) {
    #nav {
-    flex-direction: column;
-   }
+        flex-direction: column;
+    }
     
-   #nav-links {
-    flex-direction: column;
-   } 
+    #nav-links {
+        flex-direction: column;
+    } 
 
-   .social-media {
-    flex-direction: column;
-   }
+    .social-media {
+        flex-direction: column;
+    }
 
    #hero h1 {
-    font-size: 80px;
-   }
+        font-size: 80px;
+    }
 
    #hero h3 {
-    font-size: 34px;
-   }
+        font-size: 34px;
+    }
 
    .three-cards,
    .two-cards {
-    flex-direction: column;
-   }
+        flex-direction: column;
+    }
 
    .two-cards .card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-   }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
 }
