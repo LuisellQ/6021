@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #111111;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a:hover {
+    color: #c1b918;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #1111112f;
+    width: 100%;
+    min-width: 200px;
+}
+
+.search-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin: 0px 40px 1px;
+    padding: 0px 70px;
+    border: 1px solid #111111;
+    border-radius: 75px;
+}
+
+.hero {
+    background:
+        linear-gradient(#ffffff79,#ffffff2e),
+        url(../images/food_mercat.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h2 {
+    color: #111111;
+    font-size: 3vw;
+    margin-bottom: 0px;
+    margin-right: 3vw;
+}
+
+.hero a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1vw;
+    color: #111111;
+    padding: 18px;
+    margin: 4vh 7vw;
+    border: 2px solid #09b68c;
+    border-radius: 5px;
+
+}
+
+.hero a:hover {
+    font-weight: bold;
+    border: 2px solid #c1b918;
+    box-shadow: 4px 4px 4px #c1b918;
+    transform: translateY(-4px);
+}
