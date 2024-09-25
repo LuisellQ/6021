@@ -16,8 +16,8 @@ body {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    padding: 24px;
+    color: whitesmoke;
+    padding: 30px;
 }
 
 #navbar #logo {
@@ -88,6 +88,7 @@ body {
     font-size: 1.5vw;
     display: inline-block;
     background-color: #292828;
+    border: 1px solid whitesmoke;
     color: whitesmoke;
     text-decoration: none;
     padding: 24px;
@@ -323,7 +324,7 @@ body {
 }
 
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 650px) {
     #navbar {
         flex-direction: column;
     }
