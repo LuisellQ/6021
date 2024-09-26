@@ -32,7 +32,7 @@ body {
 }
 
 .single-column h2 {
-    color: #111111;
+    color: white;
     text-align: center;
     font-size: 25px;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 .side-by-side h3 {
-    color: #111111;
+    color: white;
     text-align: center;
     margin-top: 0px;
     font-size: 20px;
@@ -89,7 +89,7 @@ body {
 }
 
 .single-column-2 h2 {
-    color: #111111;
+    color: white;
     font-size: 40px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
