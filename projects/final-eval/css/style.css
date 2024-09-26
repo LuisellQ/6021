@@ -125,10 +125,10 @@ body {
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 555px) {
 .single-column-2 h2 {
-        font-size: 30px;
-    }
+    font-size: 30px;
+ }
 
 .single-column-2 h3 {
     font-size: 14px;
@@ -136,6 +136,10 @@ body {
 
 .single-column-2 h2 {
     font-size: 14px;
+}
+
+.image-container {
+    width: 80%;
 }
 
 .buttons a {
