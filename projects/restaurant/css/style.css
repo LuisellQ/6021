@@ -59,7 +59,7 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: #c1b918c7;
+    background-color: #c1b918e4;
     width: 100%;
     min-width: 200px;
 }
@@ -255,7 +255,7 @@ body {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "menu-sidebar"
         "menu-sidebar-2";
@@ -312,8 +312,7 @@ body {
 
 .text-container-2 {
     padding: 40px;
-    margin: 70px;
-    text-align: center;
+    margin: 5px;
 }
 
 .text-container-2 p {
@@ -334,4 +333,71 @@ body {
     font-weight: bold;
     box-shadow: 2px 2px 5px #c1b918;
     transform: translateY(-4px);
+}
+
+@media screen and (max-width: 1080px) {
+    #navbar {
+        flex-direction: column;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #navbar #logo {
+        flex-direction: column;
+        margin-left: auto;
+    }
+    
+}
+
+@media screen and (max-width: 993px) {
+    .single-column p {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .side-by-side .text-container h3 {
+        font-size: 36px;
+    }
+
+    .text-container a {
+        font-size: 0.8vh;
+    }
+
+    .hero a {
+        margin: 2vh 5vw;
+    
+    }
+
+    .side-by-side .image-container {
+        padding-left: 30px;
+    }
+
+    .hero {
+        height: 30vh;
+    }
+
+    .spacer {
+        height: 3vh;
+    }
+
+    .footer-content h3 {
+        font-size: 14px;
+    }
+
+    .footer-content a {
+        font-size: 0.8vh;
+    }
+
+    .footer-content div {
+        font-size: 10px;
+    }
+
+    .text-container-2 a {
+        font-size: 0.8vh;
+    }
+
+    .menu-header h2 {
+        font-size: 36px;
+    }
+
 }
