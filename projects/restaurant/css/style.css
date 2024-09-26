@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background-color: rgba(245, 245, 245, 0.452);
+    background-color: rgba(245, 245, 245, 0.585);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -169,20 +169,23 @@ body {
     transform: translateY(-4px);
 }
 
-.grid-layout {
+.grid-layout-2 {
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    padding: 0px 60px;
 }
 
 .horizontal-masonry-gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 
 .horizontal-masonry-gallery img {
-    height: 250px;
+    height: 300px;
     flex: 1;
     object-fit: cover;
 }
@@ -235,7 +238,100 @@ body {
     transform: translateY(-4px);
 }
 
+.menu-header h2 {
+    text-align: center;
+    font-size: 48px;
+} 
+
+.menu-header h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .footer-content div {
     margin-top: 20px;
     font-size: 14px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "menu-sidebar"
+        "menu-sidebar-2";
+        text-align: center;
+}
+
+.menu-sidebar p {
+    margin-top: 0px;
+}
+
+.menu-sidebar ul {
+    list-style-type: none;
+}
+
+.menu-sidebar li {
+    font-weight: bold;
+}
+
+.menu-sidebar p {
+    font-weight: lighter;
+}
+
+.menu-sidebar-2 li {
+    height: 54px;
+}
+
+.menu-sidebar-2 ul {
+    list-style-type: none;
+    
+}
+
+.side-by-side-2 {
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side-2 .image-container-2 {
+    flex: 1;
+}
+
+.side-by-side-2 .text-container-2 {
+    flex: 1;
+}
+
+.side-by-side-2 .image-container-2 img {
+    width: 100%;
+    margin-left: 24px;
+}
+
+.side-by-side-2 .text-container-2 h3 {
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+.text-container-2 {
+    padding: 40px;
+    margin: 70px;
+    text-align: center;
+}
+
+.text-container-2 p {
+    font-size: 18px;
+}
+
+.text-container-2 a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.7vw;
+    color: #111111;
+    padding: 14px;
+    border: 2px solid #c1b918;
+    border-radius: 5px;
+}
+
+.text-container-2 a:hover {
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #c1b918;
+    transform: translateY(-4px);
 }
