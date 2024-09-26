@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 480px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-column h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.single-column h1 {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 2px 5px 1px rgb(205, 146, 28);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.single-column h2 {
+    color: #111111;
+    text-align: center;
+    font-size: 25px;
+}
+
+.light-container {
+    background:
+    linear-gradient(#302f2fe4,#ffffff15),
+    url(../images/football.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+    padding: 48px 0px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .image-container-3 {
+    flex: 1;
+}
+
+.image-container-2 h2 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.side-by-side img {
+    width: 100%;
+    padding: 10px;
+}
+
+.side-by-side h3 {
+    color: #111111;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+
+}
+
+.single-column-2 {
+    width: 50%;
+    min-width: 480px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-column-2 h2 {
+    color: #111111;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.single-column-2 h3 {
+    color: #111111;
+    text-align: center;
+}
+
+.single-column-2 h4 {
+    color: #111111;
+    text-align: center;
+}
+
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
+    color: #111111;
+    border: 2px solid rgb(205, 146, 28);
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+.buttons a:hover {
+    background-color: rgb(205, 146, 28);
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 550px) {
+.single-column-2 h2 {
+        font-size: 30px;
+    }
+
+.single-column-2 h3 {
+    font-size: 14px;
+}
+
+.single-column-2 h2 {
+    font-size: 14px;
+}
+
+.buttons a {
+    font-size: 12px;
+}
+}
