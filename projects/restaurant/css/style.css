@@ -10,7 +10,6 @@ body {
 #navbar {
     background-color: rgba(245, 245, 245, 0.585);
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -19,7 +18,6 @@ body {
     text-decoration: none;
     color: #111111;
     padding: 10px;
-    text-align: center;
 }
 
 #navbar a:hover {
@@ -27,7 +25,7 @@ body {
 }
 
 #navbar #logo {
-    margin-left: 40px;
+    padding-left: 40px;
     margin-right: auto;
 }
 
@@ -259,6 +257,7 @@ body {
 
 .menu-sidebar p {
     margin-top: 0px;
+    font-size: 14px;
 }
 
 .menu-sidebar {
@@ -278,7 +277,7 @@ body {
 }
 
 .menu-sidebar-2 li {
-    height: 54px;
+    height: 49px;
 }
 
 .menu-sidebar-2 ul {
@@ -334,85 +333,9 @@ body {
     transform: translateY(-4px);
 }
 
-@media screen and (max-width: 1080px) {
-    #navbar {
-        flex-direction: column;
-        font-size: 14px;
-        padding-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #navbar #logo {
-        flex-direction: column;
-        margin-left: 30px;
-    }
-    
-}
-
-@media screen and (max-width: 993px) {
-    .single-column p {
-        font-size: 14px;
-        margin-right: 5px;
-    }
-
-    .side-by-side .text-container h3 {
-        font-size: 36px;
-    }
-
-    .text-container a {
-        font-size: 0.8vh;
-    }
-
-    .hero a {
-        margin: 2vh 5vw;
-    
-    }
-
-    .side-by-side .image-container {
-        padding-left: 30px;
-    }
-
-    .hero {
-        height: 30vh;
-    }
-    
-
-    .spacer {
-        height: 3vh;
-    }
-
-    .footer-content h3 {
-        font-size: 14px;
-    }
-
-    .footer-content a {
-        font-size: 0.8vh;
-    }
-
-    .footer-content div {
-        font-size: 10px;
-    }
-
-    .text-container-2 a {
-        font-size: 0.8vh;
-    }
-
-    .menu-header h2 {
-        font-size: 36px;
-    }
-
-}
-
 @media screen and (max-width: 1269px) {
     .grid-layout {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "menu-sidebar"
-            "menu-sidebar-2";
-            text-align: center;
-            height: 1200px;
     }
 
     .side-by-side h3 {
@@ -420,60 +343,11 @@ body {
     }
 }
 
-@media screen and (max-width: 693px) {
-    .side-by-side-2 {
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding-top: 20px;
-    }
-
-    .image-container-2 {
-        width: 80%;
-        margin-right: 40px;
-    }
-
-    .side-by-side-2 .text-container-2 h3 {
-        text-align: center;
-        font-size: 30px;
-    }
-
-    .hero a {
-        font-size: 1.5vw;
-    }
-
-    .menu-sidebar {
-        height: 700px;
-        font-size: 14px;
-    }
-
-    .menu-sidebar-2 li {
-        height: 45px;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-
-    .side-by-side {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .image-container {
-        align-items: center;
-        width: 70%;
-    }
-
-    .side-by-side .text-container h3 {
-        text-align: center;
-        font-size: 30px;
-    }
-
+@media screen and (max-width: 1153px) {
     #navbar {
         flex-direction: column;
-        font-size: 12px;
-        padding-bottom: 8px;
-        
+        flex-wrap: wrap;
+        padding-bottom: 10px;
     }
 
     #navbar #logo {
@@ -482,13 +356,152 @@ body {
     }
 }
 
-@media screen and (max-width: 519px) {
-    .menu-sidebar {
-        height: 700px;
+@media screen and (max-width: 886px) {
+    .side-by-side-2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .image-container-2 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-by-side-2 .text-container-2 h3 {
+        font-size: 30px;
+    }
+
+    .text-container-2 a {
+        font-size: 1.3vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .image-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-by-side .text-container h3 {
+        font-size: 30px;
+    }
+
+    .text-container a {
+        font-size: 1.3vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 785px) {
+
+    .hero {
+        height: 50vw;
+    }
+    .side-by-side-2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .image-container-2 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-by-side-2 .text-container-2 h3 {
+        font-size: 25px;
+    }
+
+    .text-container-2 a {
+        font-size: 1.2vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-container-2 p {
         font-size: 14px;
     }
 
+    .side-by-side {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .image-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-by-side .text-container h3 {
+        font-size: 25px;
+    }
+
+    .text-container a {
+        font-size: 1.2vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-container p {
+        font-size: 14px;
+    }
+
+    .grid-layout {
+        grid-template-columns: 250px 500px;
+    }
+
     .menu-sidebar-2 li {
-        height: 49px;
+        height: 53px;
+    }
+
+    .menu-header h2 {
+        font-size: 38px;
+    }
+
+    .menu-header h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .grid-layout {
+        grid-template-columns: 250px 275px;
+    }
+
+    .menu-sidebar-2 li {
+        height: 53px;
+    }
+
+    .menu-header h2 {
+        font-size: 36px;
+    }
+
+    .menu-header h3 {
+        font-size: 20px;
+    }
+
+    .text-container a {
+        font-size: 1.5vw;
+    }
+
+    .text-container-2 a {
+        font-size: 1.5vw;
     }
 }
