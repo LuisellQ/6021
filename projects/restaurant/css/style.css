@@ -344,6 +344,7 @@ body {
         flex-direction: column;
         font-size: 14px;
         padding-bottom: 10px;
+        
     }
 
     #navbar #logo {
@@ -379,6 +380,7 @@ body {
     .hero {
         height: 30vh;
     }
+    
 
     .spacer {
         height: 3vh;
@@ -462,14 +464,27 @@ body {
     }
 
     .image-container {
-        margin-right: auto;
-        margin-left: auto;
-        width: 90%;
+        align-items: center;
+        width: 70%;
     }
 
     .side-by-side .text-container h3 {
         text-align: center;
         font-size: 30px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        font-size: 12px;
+        padding-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    #navbar #logo {
+        flex-direction: column;
+        margin-left: auto;
     }
 }
 
