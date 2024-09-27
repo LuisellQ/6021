@@ -266,6 +266,10 @@ body {
     margin-top: 0px;
 }
 
+.menu-sidebar {
+    height: 700px;
+}
+
 .menu-sidebar ul {
     list-style-type: none;
 }
@@ -400,4 +404,82 @@ body {
         font-size: 36px;
     }
 
+}
+
+@media screen and (max-width: 1269px) {
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "menu-sidebar"
+            "menu-sidebar-2";
+            text-align: center;
+            height: 1200px;
+    }
+
+    .side-by-side h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    .side-by-side-2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .image-container-2 {
+        width: 80%;
+        margin-right: 40px;
+    }
+
+    .side-by-side-2 .text-container-2 h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .hero a {
+        font-size: 1.5vw;
+    }
+
+    .menu-sidebar {
+        height: 700px;
+        font-size: 14px;
+    }
+
+    .menu-sidebar-2 li {
+        height: 45px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .side-by-side {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .image-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
+
+    .side-by-side .text-container h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .menu-sidebar {
+        height: 700px;
+        font-size: 14px;
+    }
+
+    .menu-sidebar-2 li {
+        height: 49px;
+    }
 }
