@@ -149,7 +149,7 @@ body {
 .text-container a {
     display: inline-block;
     text-decoration: none;
-    font-size: 0.7vw;
+    font-size: 1.3vw;
     color: #111111;
     padding: 14px;
     border: 2px solid #c1b918;
@@ -443,7 +443,7 @@ body {
     }
 
     .image-container-2 {
-        width: 90%;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
