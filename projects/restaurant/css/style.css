@@ -166,7 +166,6 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 60px;
 }
 
 .horizontal-masonry-gallery {
@@ -261,7 +260,7 @@ body {
 }
 
 .menu-sidebar {
-    height: 700px;
+    height: 100px;
 }
 
 .menu-sidebar ul {
@@ -343,16 +342,24 @@ body {
     }
 }
 
-@media screen and (max-width: 1153px) {
+@media screen and (max-width: 1156px) {
     #navbar {
         flex-direction: column;
         flex-wrap: wrap;
-        padding-bottom: 10px;
+        padding-bottom: 3vh;
+    }
+
+    .search-button {
+        margin-top: 2vh;
     }
 
     #navbar #logo {
         flex-direction: column;
         margin-left: auto;
+    }
+
+    .footer-content a {
+        font-size: 1.5vw;
     }
 }
 
@@ -407,7 +414,20 @@ body {
 @media screen and (max-width: 785px) {
 
     .hero {
-        height: 50vw;
+        height: 70vw;
+    }
+
+    .spacer {
+        height: 3vh;
+    }
+
+    .hero h2 {
+        font-size: 14px;
+    }
+
+    .hero a {
+        font-size: 1.5vw;
+        padding: 10px;
     }
     .side-by-side-2 {
         flex-direction: column;
@@ -503,5 +523,37 @@ body {
 
     .text-container-2 a {
         font-size: 1.5vw;
+    }
+
+    .grid-layout-2 {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 40px;
+    }
+    
+    .horizontal-masonry-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .horizontal-masonry-gallery img {
+        height: 200px;
+        flex: 1;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .hero h2 {
+        font-size: 12px;
+    }
+
+    .hero a {
+        font-size: 1.2vw;
+        padding: 10px;
     }
 }
