@@ -195,9 +195,9 @@ body {
 
 .footer-navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
 }
 
 .footer-navbar div {
@@ -368,6 +368,13 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         padding-top: 20px;
+    }
+
+    .footer-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .image-container-2 {
